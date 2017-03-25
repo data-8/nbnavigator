@@ -25,6 +25,7 @@ class MetricsHandler(IPythonHandler):
 
 
 def setup_handlers(web_app):
+    web_app.log.info("Hello, world")
     #route_pattern = url_path_join(web_app.settings['base_url'], '/metrics')
     # web_app.add_handlers('.*', [(route_pattern, MetricsHandler)])
     return

@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="nbnavigator",
-    version='0.8.15',
+    version='0.0.1',
     url="https://github.com/data-8/nbnavigator",
     author="Andrew Linxie",
     description="Jupyter Extension for assignment navigation and fetching assignments",

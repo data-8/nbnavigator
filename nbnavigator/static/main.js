@@ -1,9 +1,11 @@
 define([
     'base/js/namespace',
-    'jquery'
+    'jquery',
+    'exports'
 ], function(
     Jupyter,
-    $
+    $,
+    exports
 ) {
     function load_ipython_extension() {
         console.log(
@@ -14,16 +16,12 @@ define([
             $('<li>')
             .append(
                 $('<a>')
-                .attr('href', '#assignments')
                 .attr('data-toggle', 'tab')
-                .text('Assignments')
-                .click(function (e) {
-                    window.history.pushState(null, null, '#assignments');
-                })
+                .text('nbnavigator')
             )
         );
     }
-
+    exports.load_ipython_extension = load_ipython_extension;
     return {
         load_ipython_extension: load_ipython_extension
     };

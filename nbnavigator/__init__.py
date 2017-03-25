@@ -7,11 +7,11 @@ def _jupyter_server_extension_paths():
 
 def _jupyter_nbextension_paths():
     return [{
-        "section": "notebook",
+        "section": "tree",
         "dest": "nbnavigator",
         "src": "static",
         "require": "nbnavigator/main"
     }]
 
 def load_jupyter_server_extension(nbapp):
-    setup_handlers(nbapp.web_app)
+    setup_handlers(nbapp)
