@@ -25,7 +25,7 @@ define([
                 $('<a>')
                 .attr('href', '#' + tab_id)
                 .attr('data-toggle', 'tab')
-                .text('nbnavigator')
+                .text('NBnavigator')
                 .on('click', function (evt) {
                     window.history.pushState(null, null, '#' + tab_id);
                 })
