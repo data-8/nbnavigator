@@ -4,6 +4,7 @@ DSEP Infrastructure extension for assignment navigation and fetching assignments
 Requirements : Google Oauthenticator with OKpy support. 
 
 Directions:
+
     git clone https://github.com/data-8/nbnavigator.git
     pip install -e nbnavigator #directory of installing extension
 
