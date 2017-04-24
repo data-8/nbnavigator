@@ -1,0 +1,9 @@
+nbnavigator/__init__.py
+nbnavigator/handlers.py
+nbnavigator.egg-info/PKG-INFO
+nbnavigator.egg-info/SOURCES.txt
+nbnavigator.egg-info/dependency_links.txt
+nbnavigator.egg-info/requires.txt
+nbnavigator.egg-info/top_level.txt
+nbnavigator/static/main.js
+nbnavigator/static/navigator.js
