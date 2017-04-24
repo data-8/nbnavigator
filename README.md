@@ -6,7 +6,7 @@ Requirements : Google Oauthenticator with OKpy support.
 Directions:
 
     git clone https://github.com/data-8/nbnavigator.git
-    pip install -e nbnavigator #directory of installing extension
+    pip install -e nbnavigator
 
     jupyter nbextension install --py nbnavigator --sys-prefix
     jupyter nbextension enable nbnavigator --py --sys-prefix
